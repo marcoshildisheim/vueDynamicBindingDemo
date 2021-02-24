@@ -1,5 +1,5 @@
-new Vue ({
-    el: '#app1',
+const app = Vue.createApp({
+    el: '#app',
     data() {
         return {
             message: 'Howdy Captain!'
