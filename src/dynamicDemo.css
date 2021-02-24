@@ -1,0 +1,41 @@
+*width {
+    width: 500px;
+} 
+
+body {
+    background: lightgray;
+    font-family: Verdana, sans-serif;
+    width: 500px;
+}
+
+h3 {
+    text-align: center;
+}
+
+textarea {
+    color: black;
+    border: 2px;
+    border-color: black;
+    border-radius: 2px;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 14pt;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    position: absolute;
+    font-size: 14px;
+    width: 200px;
+    height: 150px;
+}
